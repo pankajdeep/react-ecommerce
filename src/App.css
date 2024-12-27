@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  font-family: var(--font);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
