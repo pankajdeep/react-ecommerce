@@ -1,8 +1,12 @@
+import "./logo.css";
+
 export default function Logo() {
   return (
-    <div>
-      <img src="" alt="" />
-      <span>Dealmart</span>
+    <div className="flex-logo ">
+      <div>
+        <img src="./assets/images/online-shopping.png" alt="" />
+      </div>
+      <div>Dealmart</div>
     </div>
   );
 }

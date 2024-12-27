@@ -1,7 +1,7 @@
 export default function LoginBtn() {
   return (
     <div>
-      <button>Login</button>
+      <button className="btn">Login</button>
     </div>
   );
 }

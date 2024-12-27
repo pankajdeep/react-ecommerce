@@ -1,3 +1,29 @@
 .flex-header {
   display: flex;
+  padding: 14px 80px;
+  /* height: 40px; */
+  /* gap: 20px; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 14px 20px;
+  border-radius: 40px;
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+.btn:hover {
+  /* opacity: 0.8; */
+  background-color: var(--primary);
+  color: var(--light);
+  transition-duration: 500ms;
+}
+
+.cart-img {
+  align-content: center;
 }
