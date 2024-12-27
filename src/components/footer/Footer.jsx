@@ -1,5 +1,5 @@
 import FooterLinks from "./FooterLinks";
-import Logo from "./Logo";
+import Logo from "../logo/Logo";
 import Subscribe from "./Subscribe";
 import styles from "./footer.module.css";
 
