@@ -1,13 +1,14 @@
 import FooterLinks from "./FooterLinks";
 import Logo from "./Logo";
 import Subscribe from "./Subscribe";
+import styles from "./footer.module.css";
 
 function Footer() {
   return (
-    <div>
-      <div className="footer-header">Get Exclusive Offers On Your Email</div>
+    <div className={styles.container}>
+      <div className={styles.header}>Get Exclusive Offers On Your Email</div>
       <div>Subscribe to our newsletter and stay updated.</div>
-      <div>
+      <div className={styles.footerBody}>
         <Subscribe />
         <Logo />
         <FooterLinks />

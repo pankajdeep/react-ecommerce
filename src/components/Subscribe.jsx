@@ -1,7 +1,9 @@
+import "./subscribe.css";
+
 function Subscribe() {
   return (
     <div>
-      <div>
+      <div className="subscribe-input">
         <input type="text" placeholder="Your email id" />
         <button>Subscribe</button>
       </div>

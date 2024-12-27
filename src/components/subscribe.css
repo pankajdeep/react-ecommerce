@@ -1,0 +1,25 @@
+.subscribe-input input {
+  padding: 14px 20px;
+  width: 30%;
+  border: none;
+  font-size: 14px;
+  font-weight: 100;
+  border-radius: 40px;
+}
+.subscribe-input input:focus {
+  outline: none;
+}
+.subscribe-input button {
+  padding: 14px 20px;
+  border-radius: 40px;
+  background-color: var(--primary);
+  /* border: none; */
+  color: var(--light);
+  border: 1px solid var(--primary);
+  margin-right: -50px;
+  cursor: pointer;
+}
+
+.subscribe-input {
+  position: relative;
+}
