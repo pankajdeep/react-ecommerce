@@ -17,6 +17,7 @@
 
 .review-title {
   margin-bottom: 10px;
+  font-weight: 500;
 }
 .review-date {
   color: var(--lightened-dark);
