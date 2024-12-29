@@ -1,0 +1,45 @@
+.flex-banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container {
+  /* padding: 14px 20px; */
+  /* height: 300px; */
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background: var(--lightened-dark);
+  color: var(--light);
+  background: linear-gradient(to bottom, var(--lightened-dark) 0%, #fff 99%);
+}
+.banner-content div {
+  margin-bottom: 20px;
+}
+
+.banner-img img {
+  width: 350px;
+}
+
+.banner-title {
+  font-size: 38px;
+  font-weight: 500;
+}
+.banner-content {
+  padding: 30px;
+  width: 45%;
+}
+.banner-subtitle {
+  font-size: 14px;
+}
+.banner-content button {
+  padding: 14px 20px;
+  border-radius: 40px;
+  background-color: var(--primary);
+  /* border: none; */
+  color: var(--light);
+  border: 1px solid var(--primary);
+  margin-right: -50px;
+  cursor: pointer;
+}

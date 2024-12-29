@@ -1,0 +1,21 @@
+.shop-banner > .container {
+  margin: 0px;
+  /* padding-top: 40px; */
+  height: 500px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.shop-banner > .container > .banner-img img {
+  width: 600px;
+  margin-top: 80px;
+}
+.shop-banner > .container > .banner-content > .banner-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 120px;
+}
+.shop-banner > .container > .banner-content > .banner-subtitle {
+  font-size: 70px;
+  width: 80%;
+}
