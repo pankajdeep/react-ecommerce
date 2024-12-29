@@ -1,5 +1,5 @@
-import Banner from "../components/banner/Banner";
-import ProductSection from "../components/product/ProductSection";
+import Banner from "../../components/banner/Banner";
+import ProductSection from "../../components/product/ProductSection";
 import "./shop.css";
 
 var banner2 = {

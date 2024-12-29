@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: var(--font);
+  /* font-size: 14px; */
 }
 .flex {
   display: flex;
